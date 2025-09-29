@@ -1,0 +1,31 @@
+# FastAPI and Web Framework
+fastapi>=0.95.0
+uvicorn[standard]>=0.20.0
+python-multipart>=0.0.5
+
+# Database and ORM
+sqlalchemy>=1.4.42,<2.0
+databases[sqlite]>=0.6.0
+aiosqlite>=0.17.0
+
+# Authentication and Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.0
+pydantic[email]>=2.0.0
+
+# Data Processing and Visualization
+pandas>=1.5.0
+plotly>=5.0.0
+numpy>=1.20.0
+
+# HTTP and API
+requests>=2.25.0
+httpx>=0.20.0
+
+# Development and Testing
+pytest>=7.0.0
+pytest-asyncio>=0.20.0
+
+# Optional: Streamlit for admin interface
+streamlit>=1.20.0

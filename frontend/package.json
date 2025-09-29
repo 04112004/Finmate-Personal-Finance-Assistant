@@ -1,0 +1,17 @@
+{
+  "name": "finmate-frontend",
+  "version": "1.0.0",
+  "description": "FinMate Frontend - Streamlit Application",
+  "scripts": {
+    "start": "streamlit run app.py",
+    "dev": "streamlit run app.py --server.port 3000",
+    "build": "echo 'Streamlit apps don't need building'",
+    "serve": "streamlit run app.py --server.port 8501"
+  },
+  "keywords": ["streamlit", "finance", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "streamlit": "^1.28.0"
+  }
+}
